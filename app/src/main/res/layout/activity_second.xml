@@ -1,0 +1,70 @@
+<!-- activity_second.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:background="#1D1E23">
+
+    <ImageView
+        android:id="@+id/blackbox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/jyotirsblackbox" />
+
+    <ImageView
+        android:id="@+id/uni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="517dp"
+        android:foreground="@drawable/unipic"
+        android:scaleType="fitCenter"
+        android:src="@drawable/unipic" />
+
+    <TextView
+        android:id="@+id/bhashan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="315dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="333dp"
+        android:gravity="center"
+        android:lineSpacingExtra="8dp"
+        android:text="JOIN US TODAY FOR A BETTER FUTURE A LITTLE CARE TO STOP THE WATER SAVE THE LEAK"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/continuebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="518dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="163dp"
+        android:background="#00FFFFFF"
+        android:foreground="@drawable/continuwbutton"
+        android:text="CONTINUE" />
+
+
+</RelativeLayout>

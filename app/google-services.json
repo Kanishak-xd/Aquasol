@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1056372705058",
+    "project_id": "aquasol-94d95",
+    "storage_bucket": "aquasol-94d95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056372705058:android:8eb24281da4ebfd132077b",
+        "android_client_info": {
+          "package_name": "com.example.aquasolandroid10application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2g24nRWrGNxCNlVCOrfhjuEAq-jZv7qk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

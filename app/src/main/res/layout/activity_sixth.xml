@@ -1,0 +1,102 @@
+<!-- activity_sixth.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SixthActivity"
+    android:background="#1D1E23">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="78dp"
+        android:background="#00FFFFFF"
+        android:scaleType="center"
+        app:srcCompat="@drawable/jatininsideblackbox"
+        android:contentDescription="@string/condesc" />
+
+    <ImageButton
+        android:id="@+id/tankonebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="358dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="323dp"
+        android:background="#00FFFFFF"
+        android:baselineAlignBottom="false"
+        android:contentDescription="@string/somedesctwo"
+        android:foreground="@drawable/tankonebutton"
+        android:onClick="onButton1Click"
+        android:scaleType="centerInside"
+        android:src="@drawable/tankonebutton" />
+
+    <ImageButton
+        android:id="@+id/ugtwoselection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="443dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="242dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/somedescthree"
+        android:foreground="@drawable/tanktwobutton"
+        android:onClick="onButton2Click"
+        android:scaleType="centerInside"
+        android:src="@drawable/tanktwobutton"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/tankthreebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="527dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="150dp"
+        android:background="#00FFFFFF"
+        android:foreground="@drawable/tankthreebutton"
+        android:onClick="onButton3Click"
+        android:scaleType="centerInside"
+        android:src="@drawable/tankthreebutton"
+        android:contentDescription="@string/somedescfour" />
+
+    <ImageButton
+        android:id="@+id/ugoneugtwo"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="77dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/somedescfive"
+        app:srcCompat="@drawable/jatinsugone"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+</RelativeLayout>
