@@ -1,5 +1,6 @@
 package com.example.aquasolandroid10application;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
@@ -31,13 +32,14 @@ public class SeventhActivity extends AppCompatActivity {
         ImageButton waterLevelButton = findViewById(R.id.waterlevelbutton);
         ImageButton flowRateButton = findViewById(R.id.flowratebutton);
         ImageButton tdsButton = findViewById(R.id.tdsbutton);
+        ImageButton homebutton = findViewById(R.id.homebutton);
 
 
         // Update the tank_ug_text based on the selection
-        if ("jatinsugone".equals(selection)) {
+        if ("ugoneselection".equals(selection)) {
             // Handle the text updates for jatinsugone
             tankUgText.setText("WATER TANK ONE - UG1");
-        } else if ("jatinsugtwo".equals(selection)) {
+        } else if ("ugtwoselection".equals(selection)) {
             // Handle the text updates for jatinsugtwo
             tankUgText.setText("WATER TANK ONE - UG2");
         }
@@ -54,8 +56,17 @@ public class SeventhActivity extends AppCompatActivity {
                 levelTdsFlowRateIconImageView.setImageResource(R.drawable.waterlevelicon);
             }
         });
+        homebutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Navigate to FifthActivity when homeButton is clicked
+                Intent intent = new Intent(SeventhActivity.this, FifthActivity.class);
+                startActivity(intent);
+            }
+        });
 
         flowRateButton.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
                 // Change the text to "100L/min" when flowratebutton is clicked
@@ -79,7 +90,9 @@ public class SeventhActivity extends AppCompatActivity {
             }
         });
 
+
         // You can perform additional actions on other views if needed
+
     }
 }
 
