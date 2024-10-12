@@ -1,0 +1,104 @@
+<!-- activity_sixth.xml -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#131313"
+    tools:context=".SixthActivity">
+
+
+    <ImageButton
+        android:id="@+id/tankthreebutton"
+        android:layout_width="255dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/somedescfour"
+        android:foreground="@drawable/tankthreebutton"
+        android:onClick="onButton3Click"
+        android:scaleType="fitCenter"
+        android:src="@drawable/tankthreebutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ugoneugtwo"
+        app:layout_constraintVertical_bias="0.54" />
+
+    <ImageButton
+        android:id="@+id/ugtwoselection"
+        android:layout_width="255dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/somedescthree"
+        android:foreground="@drawable/tanktwobutton"
+        android:onClick="onButton2Click"
+        android:scaleType="fitCenter"
+        android:src="@drawable/tanktwobutton"
+        app:layout_constraintBottom_toTopOf="@+id/tankthreebutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ugoneugtwo"
+        app:layout_constraintVertical_bias="0.784"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/tankonebutton"
+        android:layout_width="255dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="#00FFFFFF"
+        android:baselineAlignBottom="false"
+        android:contentDescription="@string/somedesctwo"
+        android:foreground="@drawable/tankonebutton"
+        android:onClick="onButton1Click"
+        android:scaleType="fitCenter"
+        android:src="@drawable/tankonebutton"
+        app:layout_constraintBottom_toTopOf="@+id/ugtwoselection"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+    <ImageButton
+        android:id="@+id/ugoneugtwo"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/somedescfive"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.217"
+        app:srcCompat="@drawable/jatinsugone"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="101dp"
+        android:layout_height="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tankthreebutton"
+        app:layout_constraintVertical_bias="0.582"
+        app:srcCompat="@drawable/extractedtext" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

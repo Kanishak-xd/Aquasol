@@ -1,0 +1,27 @@
+
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle">
+
+        <!-- Define the color and size of the rectangle -->
+        <solid android:color="#CAEDFF" /> <!-- Background color -->
+
+        <!-- Optional: Define corner radius for rounded corners -->
+        <corners android:radius="15dp" />
+
+        <!-- Optional: Define stroke around the rectangle -->
+        <stroke
+            android:width="0dp"
+            android:color="#000000" /> <!-- Black border -->
+
+        <!-- Optional: Define padding for the shape -->
+        <padding
+            android:left="10dp"
+            android:right="10dp"
+            android:top="10dp"
+            android:bottom="10dp" />
+
+        <!-- Optional: Define size of the shape -->
+        <size
+            android:width="200dp"
+            android:height="100dp" />
+    </shape>

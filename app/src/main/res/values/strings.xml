@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AquasolUI</string>
+    <string name="logo_content_description">Logo for AquaSol Water Management</string>
+    <string name="default_text">Default Text</string>
+    <string name="button1_text">Button 1</string>
+    <string name="button2_text">Button 2</string>
+    <string name="button3_text">Button 3</string>
+    <string name="button1_description">Water Level Button</string>
+    <string name="button2_description">Water Flow Rate Button</string>
+    <string name="button3_description">TDS Level Button</string>
+    <string name="homeButton_description">Home Button</string>
+    <string name="overview_text">Overview</string>
+    <string name="condesc">bruhmthing</string>
+    <string name="somedesctwo">aaaaa</string>
+    <string name="somedescthree">TODO</string>
+    <string name="somedescfour">TODO</string>
+    <string name="somedescfive">TODO</string>
+</resources>
